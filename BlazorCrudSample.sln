@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29411.138
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazoCrudSample.Api", "src\BlazoCrudSample.Api\BlazoCrudSample.Api.csproj", "{1C125450-F9C2-44F8-9584-7931B8A12F24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorCrudSample.Web", "src\BlazorCrudSample.Web\BlazorCrudSample.Web.csproj", "{932A42F9-7501-4B9F-85D3-F5D15593CD71}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C125450-F9C2-44F8-9584-7931B8A12F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C125450-F9C2-44F8-9584-7931B8A12F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C125450-F9C2-44F8-9584-7931B8A12F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C125450-F9C2-44F8-9584-7931B8A12F24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{932A42F9-7501-4B9F-85D3-F5D15593CD71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{932A42F9-7501-4B9F-85D3-F5D15593CD71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{932A42F9-7501-4B9F-85D3-F5D15593CD71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{932A42F9-7501-4B9F-85D3-F5D15593CD71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
