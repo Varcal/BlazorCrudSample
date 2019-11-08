@@ -18,10 +18,11 @@
     "BlazorCrudSample.Web": {
       "commandName": "Project",
       "launchBrowser": true,
+      "launchUrl": "http://localhost:5050",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "http://localhost:52837/"
+      "applicationUrl": "http://localhost:5050/"
     }
   }
 }
